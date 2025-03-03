@@ -1,0 +1,13 @@
+[package]
+name = "crypto"
+workspace = ".."
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+curve25519-dalek = { workspace = true }
+crypto-bigint = { workspace = true }
+sha2 = { workspace = true }
+hex = { workspace = true }
+mnemonic = { workspace = true }
+itertools = { workspace = true } 
