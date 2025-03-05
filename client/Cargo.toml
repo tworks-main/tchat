@@ -30,8 +30,3 @@ crypto = { version = "0.1.0", path = "../crypto" }
 
 [package.metadata.appimage]
 auto_link = true
-auto_link_exclude_list = [
-    "ld-linux-x86-64.so.2",
-    "libc.so.6",
-    "libdl.so.2",
-]
