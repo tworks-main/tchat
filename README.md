@@ -150,37 +150,12 @@ cd tchat
 cargo run -p client
 ```
 
-
-- Generating updated Appimages:
-
-If you change the code and want an updated appimage: https://crates.io/crates/cargo-appimage and note running
-
-```sh
-cargo appimage
-```
-
-in `/path/tchat/client` or `/path/tchat/server`. Then you find the generated appimage in `/path/tchat/target/appimage`.
-
 ### Building on other Linux Distributions
 
 For the clients Rust crate Dioxus:
 https://dioxuslabs.com/learn/0.6/getting_started/#linux
 
 For the remaining Rust crates read the documentations. 
-
-### Install Appimage on Linux 
-
-Download the appimages from the [releases](https://github.com/tworks-main/tchat/releases/latest), make it executable
-
-```sh
-chmod a+x client.AppImage
-```
-
-and run
-
-```sh
-./client.AppImage
-```
 
 ## Configuration
 
@@ -205,7 +180,6 @@ You enter the servers public ip address (v4 or v6) and the port of the server at
 
 - [ ] Error handling
 - [ ] Commenting code base
-- [ ] Reduce the client appimage file size
 - [ ] Received message notification in gui
 - [ ] Delete messages and chats from gui
 - [ ] Implement hashcash to prevent spam
